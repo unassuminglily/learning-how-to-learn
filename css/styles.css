@@ -1,0 +1,108 @@
+/*main content I guess*/
+
+body {
+    font-size: 16px;
+    color: #fff;
+    background-color: #08306b;
+    font-family: 'Oxygen', sans-serif;
+}
+
+h3 {
+    font-family: 'Pacifico', cursive;
+}
+
+.row {
+    position: relative;
+    float: left;
+}
+
+.row {
+    background-color: #f7fbff91;
+    text-align: justify;
+    padding: 15px;
+    margin-bottom: 18px;
+    color: black;
+}
+
+#p-title {
+    font-family: 'Galada', cursive;
+}
+
+
+/** HEADER **/
+
+#header-nav {
+    background-color: #9ecae1;
+    border-radius: 0;
+    border: 0;
+}
+
+.navbar-brand {
+    padding-top: 15px;
+}
+
+.navbar-brand h1 {
+    /* Food, LLC */
+    font-family: 'Lora', serif;
+    color: #0e005c;
+    font-size: 1.7em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #011b30;
+    margin-top: 07px;
+    margin-bottom: 10px;
+    line-height: .75;
+}
+
+.navbar-brand a:hover,
+.navbar-brand a:focus {
+    text-decoration: none;
+}
+
+.navbar-header button.navbar-toggle,
+.navbar-header .icon-bar {
+    border: 1px solid #08306b;
+}
+
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+}
+
+#nav-list {
+    margin-top: 15px;
+    background-color: #c6dbef;
+}
+
+#nav-list a {
+    text-align: center;
+    font-weight: bold;
+    color: cornsilk;
+}
+
+#nav-list a:hover {
+    background-color: #deebf7;
+}
+
+
+/********** Extra small devices only **********/
+
+@media (max-width: 767px) {
+    .navbar-brand {
+        padding-top: 10px;
+        height: 80px;
+    }
+    .navbar-brand h1 {
+        /* Restaurant name */
+        padding-top: 10px;
+        font-size: 5vw;
+        /* 1vw = 1% of viewport width */
+    }
+    #xs-deliver {
+        margin-top: 5px;
+        font-size: .7em;
+        letter-spacing: .1em;
+        text-transform: uppercase;
+    }
+    /* End Header */
+}
